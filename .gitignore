@@ -1,0 +1,26 @@
+# OS/editor noise
+.DS_Store
+.idea/
+.vscode/
+
+# Local agent tooling state
+.claude/
+
+# MCP resolver (Node.js)
+mcp_resolver/node_modules/
+mcp_resolver/coverage/
+mcp_resolver/.nyc_output/
+mcp_resolver/npm-debug.log*
+mcp_resolver/yarn-debug.log*
+mcp_resolver/yarn-error.log*
+mcp_resolver/pnpm-debug.log*
+mcp_resolver/.env
+mcp_resolver/.env.*
+!mcp_resolver/.env.example
+
+# Local temp/backup artifacts
+*.log
+*.tmp
+*.swp
+*.swo
+*.backup

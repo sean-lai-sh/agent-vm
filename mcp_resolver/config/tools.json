@@ -1,0 +1,52 @@
+{
+  "enabled_tools": [
+    "fs.list",
+    "fs.read",
+    "fs.write",
+    "shell.exec"
+  ],
+  "shell_exec_config": {
+    "allow_all": false,
+    "allowed_commands": [
+      "git",
+      "npm",
+      "node",
+      "python",
+      "pip",
+      "ls",
+      "cat",
+      "grep",
+      "find",
+      "head",
+      "tail",
+      "echo",
+      "pwd",
+      "whoami",
+      "date"
+    ],
+    "blocked_commands": [
+      "rm",
+      "sudo",
+      "su",
+      "chmod",
+      "chown",
+      "dd",
+      "mkfs",
+      "fdisk",
+      "kill",
+      "killall",
+      "bash",
+      "sh",
+      "zsh",
+      "exec",
+      "eval"
+    ],
+    "max_timeout": 300000,
+    "default_timeout": 30000,
+    "max_concurrent_executions": 3,
+    "max_output_size": 10485760,
+    "max_args": 100,
+    "max_arg_length": 10000,
+    "audit_enabled": true
+  }
+}
